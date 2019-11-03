@@ -25,12 +25,12 @@ export class Navbar extends React.Component {
           <div className="nav-menu" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto d-flex justify-content-end">
               <li className="nav-item active">
-                <a className="nav-link font-weight-bold h5" href="/">
+                <a className="nav-link font-weight-bold h5" href="#home">
                   Home <span className="sr-only">(current)</span>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link font-weight-bold h5" href="#">
+                <a className="nav-link font-weight-bold h5" href="#aboutme">
                   About Me
                 </a>
               </li>
