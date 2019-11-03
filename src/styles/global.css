@@ -1,0 +1,38 @@
+html {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#___gatsby {
+  height: 100%;
+}
+
+#gatsby-focus-wrapper {
+  height: 100%;
+}
+
+.home {
+  height: 100%;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.logo {
+  width: 30px;
+}
+
+.home-main {
+  padding-top: 110px;
+}
+
+h1,
+h2 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 50px;
+}
