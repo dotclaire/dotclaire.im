@@ -19,7 +19,6 @@ export class Footer extends React.Component {
               <Twitter />
             </a>
           </div>
-
           <div className="row p-4 justify-content-center">
             &copy; 2019 Claire Charalampidou
           </div>
