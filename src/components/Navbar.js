@@ -35,8 +35,8 @@ export class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item dropdown">
-                <a className="nav-link font-weight-bold h5" href="#">
-                  Experience
+                <a className="nav-link font-weight-bold h5" href="#skills">
+                  Skills
                 </a>
               </li>
               <li className="nav-item dropdown">
