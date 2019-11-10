@@ -16,21 +16,21 @@ import { SqlIcon } from "../icons/SqlIcon"
 
 export const Skills = () => {
   return (
-    <section id="skills" className="d-flex p-5">
-      <div className="container">
+    <section id="skills" className="d-flex">
+      <div className="container py-5">
         <div className="row d-flex justify-content-center">
           <h1>
             <span className="hyphen">-</span>Skills
           </h1>
         </div>
         <div className="row d-flex justify-content-center">
-          <h2>Web Development Skills</h2>
+          <h2 className="text-center">Web Development Skills</h2>
         </div>
         <hr />
         <div className="row d-flex justify-content-center">
-          <div className="col-7 mt-4 web-skills">
+          <div className="col-sm-12 col-md-9 col-lg-7 mt-4 web-skills">
             <ul className="row p-2 d-flex justify-content-center">
-              <div className="col-5">
+              <div className="col-sm-4">
                 <li>
                   <span>
                     <JavascriptIcon />
@@ -44,7 +44,7 @@ export const Skills = () => {
                   HTML
                 </li>
                 <li>
-                  <span className="ml-1">
+                  <span>
                     <CssIcon />
                   </span>
                   CSS
@@ -55,21 +55,21 @@ export const Skills = () => {
                   </span>
                   React
                 </li>
-                <li className="ml-1">
+                <li>
                   <span>
                     <BootstrapIcon />
                   </span>
                   Bootstrap
                 </li>
               </div>
-              <div className="col-4">
+              <div className="col-sm-4">
                 <li>
                   <span>
                     <WebpackIcon />
                   </span>
                   Webpack
                 </li>
-                <li className="ml-2">
+                <li>
                   <span>
                     <GatsbyIcon />
                   </span>
@@ -87,7 +87,7 @@ export const Skills = () => {
                   </span>
                   Git
                 </li>
-                <li className="ml-1">
+                <li>
                   <span>
                     <TypescriptIcon />
                   </span>
@@ -102,9 +102,9 @@ export const Skills = () => {
         </div>
         <hr />
         <div className="row d-flex justify-content-center">
-          <div className="col-7 mt-4 web-skills">
+          <div className="col-sm-12 col-md-9 col-lg-7 mt-4 web-skills">
             <ul className="row p-2 d-flex justify-content-center">
-              <div className="col-9">
+              <div className="col-sm-12 col-md-8">
                 <li>
                   <span>
                     <MachineLearningIcon />
