@@ -5,23 +5,23 @@ export const Home = () => {
     <section id="home" className="bg-light d-flex flex-fill py-5">
       <div className="container d-flex justify-content-center align-items-center">
         <div className="row d-flex justify-content-center">
-          <div className="col d-flex flex-column justify-content-center">
-            <h1 className="heading text-center">Hello, I'm Claire.</h1>
-            <h2 className="text-center">
-              Junior Developer &#64; <br />
+          <div className="col-sm-12 col-md d-flex flex-column justify-content-center">
+            <h1 className="greeting text-center">Hello, I'm Claire.</h1>
+            <h2 className="job text-center">
+              Junior Developer &#64;
               <a
                 className="company-name"
                 href="https://signal-noise.co.uk"
                 target="_blank"
               >
-                Signal Noise, part of the Economist Group
+                Signal Noise, part of The Economist Group
               </a>
               .
             </h2>
           </div>
-          <div className="col-5 d-flex justify-content-center">
+          <div className="col-sm-12 col-md-3 d-flex justify-content-center">
             <img
-              className="rounded-circle w-50"
+              className="portrait rounded-circle"
               src="53490573.jpeg"
               alt="portrait"
             />

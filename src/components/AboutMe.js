@@ -6,12 +6,13 @@ export const AboutMe = () => {
     <section id="aboutme">
       <div className="container d-flex py-5">
         <div className="row">
-          <div className="col d-flex justify-content-center align-items-center">
+          <div className="col-md-12 col-lg-6 d-flex justify-content-center align-items-center">
             <Info />
           </div>
-          <div className="col">
-            <h1>
-              <span className="hyphen">-</span>About Me
+          <div className="col-md-12 col-lg-6">
+            <h1 className="d-flex justify-content-center justify-content-lg-start">
+              <span className="hyphen">-</span>
+              About Me
             </h1>
             <p>
               My name is Charikleia Charalampidou, but people call me Claire! I
