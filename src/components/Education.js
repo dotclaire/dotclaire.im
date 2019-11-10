@@ -15,7 +15,7 @@ export const Education = () => {
           <h2>University Degrees</h2>
         </div>
 
-        <hr />
+        <hr className="education-line" />
 
         <div className="row d-flex justify-content-center">
           <div className="col-sm-12 col-lg-1 d-flex justify-content-center align-items-center">
