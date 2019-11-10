@@ -36,6 +36,12 @@ body {
   font-size: 50px;
 }
 
+.company-name {
+  font-size: 2rem;
+  color: #545454;
+  padding-left: 7px;
+}
+
 .hyphen {
   color: #36b8d9;
   padding-right: 10px;
@@ -84,4 +90,26 @@ li {
 li {
   list-style: none;
   margin-bottom: 10px;
+}
+
+.degree-title {
+  font-size: 25px;
+  color: #545454;
+}
+
+.education-line {
+  display: block;
+  border: none;
+  color: white;
+  height: 1px;
+  background: black;
+  background: -webkit-gradient(
+    radial,
+    50% 50%,
+    0,
+    50% 50%,
+    350,
+    from(black),
+    to(#f8f9fa)
+  );
 }

@@ -31,17 +31,17 @@ export class Navbar extends React.Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link font-weight-bold h5" href="#aboutme">
-                  About Me
+                  About
+                </a>
+              </li>
+              <li className="nav-item dropdown">
+                <a className="nav-link font-weight-bold h5" href="#education">
+                  Education
                 </a>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link font-weight-bold h5" href="#skills">
                   Skills
-                </a>
-              </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link font-weight-bold h5" href="#">
-                  Projects
                 </a>
               </li>
             </ul>
