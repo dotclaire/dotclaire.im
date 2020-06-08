@@ -16,13 +16,9 @@ export const AboutMe = () => {
             </h1>
             <p>
               My name is Charikleia Charalampidou, but people call me Claire! I
-              come from Greece and I moved to the UK in September 2018. I did my
-              undergraduate studies at Aristotle University of Thessaloniki in
-              Greece, which is my first domain of knowledge. After that, I
-              earned my master's degree in Data Analytics at the University of
-              Brighton. During my MSc, I enhanced my programming skills and that
-              was the time that I realised my passion for coding. Thus, I
-              acquired personal experience in Front End Web Development.
+              am a Front End Developer with passion for responsive web design
+              and a firm believer in the mobile first approach. I love getting
+              my hands on new technologies and building contemporary projects.
             </p>
           </div>
         </div>
