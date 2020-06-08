@@ -25,22 +25,22 @@ export class Navbar extends React.Component {
           <div id="navbarSupportedContent" className="navbar-collapse collapse">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link font-weight-bold h5" href="#home">
+                <a className="nav-link h5 text-dark" href="#home">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link font-weight-bold h5" href="#aboutme">
+                <a className="nav-link h5 text-dark" href="#aboutme">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link font-weight-bold h5" href="#education">
+                <a className="nav-link h5 text-dark" href="#education">
                   Education
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link font-weight-bold h5" href="#skills">
+                <a className="nav-link h5 text-dark" href="#skills">
                   Skills
                 </a>
               </li>
