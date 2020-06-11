@@ -5,17 +5,19 @@ import { AboutMe } from "../components/AboutMe"
 import { Education } from "../components/Education"
 import { Skills } from "../components/Skills"
 import { Footer } from "../components/Footer"
+import { LandingPage } from "../components/LandingPage"
 
 export default class App extends React.Component {
   render() {
     return (
       <div className="d-flex flex-column home">
-        <Navbar />
-        <Home />
+        {/* <Navbar /> */}
+        <LandingPage />
+        {/* <Home />
         <AboutMe />
         <Education />
         <Skills />
-        <Footer />
+        <Footer /> */}
       </div>
     )
   }

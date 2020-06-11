@@ -1,12 +1,10 @@
 html {
-  position: relative;
   height: 100%;
 }
 
 body {
   height: 100%;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  padding-top: 70px;
+  font-family: "PT Sans", cursive, sans-serif;
 }
 
 #___gatsby {
@@ -15,6 +13,19 @@ body {
 
 #gatsby-focus-wrapper {
   height: 100%;
+}
+
+.landing {
+  background-color: #3ac0c8;
+}
+
+.landing-image {
+  display: block;
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 800px;
+  opacity: 0.1;
 }
 
 .home {
@@ -33,6 +44,10 @@ body {
   padding-top: 110px;
 }
 
+.greeting-wrapper {
+  z-index: 1;
+}
+
 .greeting {
   font-size: 40px;
 }
@@ -45,7 +60,7 @@ body {
   font-size: 25px;
   color: #545454;
   padding-left: 7px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "PT Sans", cursive, sans-serif;
 }
 
 .portrait {
