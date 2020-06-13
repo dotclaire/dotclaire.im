@@ -19,13 +19,7 @@ body {
   height: 100%;
 }
 
-.landing {
-  background-color: #3ac0c8;
-}
-
 .landing-image {
-  width: 800px;
-  opacity: 0.1;
   position: absolute;
   right: 0;
   opacity: 0.1;
