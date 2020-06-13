@@ -3,9 +3,9 @@ import laptop from "../assets/images/laptop.jpg"
 
 export const LandingPage = () => {
   return (
-    <div className="h-100 w-100 landing">
-      <div className="h-100 p-5 d-flex flex-column justify-content-center">
-        <div className="d-flex flex-column align-self-start">
+    <div className="h-full w-full landing">
+      <div className="h-full p-5 flex flex-col justify-center items-start">
+        <div>
           <h1 className="greeting text-white">Hello, I'm Claire.</h1>
           <h2 className="job text-white">
             Junior Developer &#64;
@@ -19,11 +19,7 @@ export const LandingPage = () => {
             .
           </h2>
         </div>
-        <img
-          className="d-none d-md-block landing-image"
-          src={laptop}
-          alt="hands-on-laptop"
-        />
+        <img className="landing-image" src={laptop} alt="hands-on-laptop" />
       </div>
     </div>
   )
