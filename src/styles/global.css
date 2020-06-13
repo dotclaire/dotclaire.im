@@ -20,16 +20,11 @@ body {
 }
 
 .landing-image {
-  display: block;
-  position: absolute;
-  top: 10%;
-  right: 0;
   width: 800px;
   opacity: 0.1;
-}
-
-.home {
-  height: 100%;
+  position: absolute;
+  right: 0;
+  opacity: 0.1;
 }
 
 .nav-menu {

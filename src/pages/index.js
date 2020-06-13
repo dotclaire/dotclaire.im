@@ -10,7 +10,7 @@ import { LandingPage } from "../components/LandingPage"
 export default class App extends React.Component {
   render() {
     return (
-      <div className="d-flex flex-column home">
+      <div className="h-100 d-flex flex-column">
         {/* <Navbar /> */}
         <LandingPage />
         {/* <Home />
