@@ -19,16 +19,6 @@ body {
   height: 100%;
 }
 
-.landing-image {
-  position: absolute;
-  right: 0;
-  opacity: 0.1;
-}
-
-.nav-menu {
-  display: flex;
-}
-
 .logo {
   width: 30px;
 }

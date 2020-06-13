@@ -20,7 +20,7 @@ export const LandingPage = () => {
           </h2>
         </div>
         <img
-          className="landing-image w-7/12"
+          className="hidden absolute opacity-10 right-0 w-7/12 lg:block"
           src={laptop}
           alt="hands-on-laptop"
         />
