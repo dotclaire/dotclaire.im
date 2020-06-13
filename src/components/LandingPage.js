@@ -1,10 +1,12 @@
 import React from "react"
 import laptop from "../assets/images/laptop.jpg"
+import { Navbar } from "./Navbar"
 
 export const LandingPage = () => {
   return (
-    <div className="bg-primary h-full w-full">
-      <div className="h-full p-5 flex flex-col justify-center items-start container mx-auto">
+    <div className="bg-primary flex flex-col h-full w-full">
+      <Navbar />
+      <div className="container mx-auto flex flex-1 flex-col justify-center p-5 md:p-0">
         <div>
           <h1 className="greeting text-white">Hello, I'm Claire.</h1>
           <h2 className="job text-white">
