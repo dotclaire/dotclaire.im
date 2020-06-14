@@ -16,7 +16,7 @@ export default class App extends React.Component {
             <h2 className="job text-white">
               Junior Developer &#64;
               <a
-                className="company-name text-white hover:text-signalNoise"
+                className="company-name text-white hover:text-signalNoise underline"
                 href="https://signal-noise.co.uk"
                 target="_blank"
               >
@@ -24,7 +24,7 @@ export default class App extends React.Component {
               </a>
               , part of
               <a
-                className="company-name text-white hover:text-teg"
+                className="company-name text-white hover:text-teg underline"
                 href="https://signal-noise.co.uk"
                 target="_blank"
               >
