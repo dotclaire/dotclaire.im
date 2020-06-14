@@ -1,5 +1,6 @@
 import React from "react"
 import { Logo } from "../icons/Logo"
+import { Link } from "gatsby"
 
 export const Navbar = () => {
   return (
@@ -8,24 +9,24 @@ export const Navbar = () => {
       <div className="flex-grow flex lg:items-center w-auto">
         <div className="flex-grow"></div>
         <div>
-          <a
-            href="#responsive-header"
+          <Link
+            to="/home"
             className="mt-2 text-base md:text-lg inline-block mt-0 text-white hover:text-secondary-dark mr-4"
           >
             Home
-          </a>
-          <a
-            href="#responsive-header"
+          </Link>
+          <Link
+            to="/about"
             className="mt-2 text-base md:text-lg inline-block mt-0 text-white hover:text-secondary-dark mr-4"
           >
             About
-          </a>
-          <a
-            href="#responsive-header"
+          </Link>
+          <Link
+            to="portfolio"
             className="mt-2 text-base md:text-lg inline-block mt-0 text-white hover:text-secondary-dark mr-4"
           >
             Portfolio
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
