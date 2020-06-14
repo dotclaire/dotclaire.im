@@ -17,7 +17,7 @@ export default class About extends React.Component {
                 getting my hands on new technologies and building contemporary
                 projects.
               </p>
-              <p className="text-grey-text text-lg py-5">
+              <p className="text-grey-text text-xl py-5">
                 Before I got into software, I did my undergraduate studies in
                 Mathematics and got my Master's degree in Data Analytics. While
                 studying full time, I was growing my skills as a developer.
@@ -41,7 +41,7 @@ export default class About extends React.Component {
                 <br />
                 School of Computing, Engineering and Mathematics
               </h2>
-              <p className="text-grey-text text-lg">
+              <p className="text-grey-text text-xl">
                 The MSc course in Data Analytics covered three main areas; Data
                 Management, Data Interpretation and Project Management. I had
                 the opportunity to attend modules such as Data Management (in
@@ -53,11 +53,39 @@ export default class About extends React.Component {
                 related with predicting Employee Attrition using classification
                 algorithms, implementing them in RStudio.
               </p>
-              <p className="text-grey-text text-lg"></p>
+
+              <h3 className="pt-4 text-xl">
+                Bachelors of Science in Mathematics (September 2011 - June 2017)
+              </h3>
+              <h2 className="pb-4">
+                Aristotle University of Thessaloniki, Greece <br />
+                Faculty of Physics and Mathematics
+              </h2>
+              <p className="text-grey-text text-xl">
+                My BSc studies in Mathematics included modules related with five
+                different departments of mathematics. Algebra Number Theory and
+                Mathematical Logic, Geometry, Statistics and Operational
+                Research Department, Mathematical Analysis, and Section of
+                Computer Science and Numerical Analysis.
+              </p>
             </div>
             <div className="w-3/12">
               <h2 className="text-2xl">Skills</h2>
               <hr className="block h-line bg-secondary w-32" />
+              <ul className="pt-3">
+                <li className="text-grey-text text-xl mb-0">React</li>
+                <li className="text-grey-text text-xl mb-0">React Native</li>
+                <li className="text-grey-text text-xl mb-0">Redux</li>
+                <li className="text-grey-text text-xl mb-0">Typescript</li>
+                <li className="text-grey-text text-xl mb-0">Gatsby</li>
+                <li className="text-grey-text text-xl mb-0">Next</li>
+                <li className="text-grey-text text-xl mb-0">GraphQL</li>
+                <li className="text-grey-text text-xl mb-0">CircleCI</li>
+                <li className="text-grey-text text-xl mb-0">Node</li>
+                <li className="text-grey-text text-xl mb-0">Jest</li>
+                <li className="text-grey-text text-xl mb-0">Wordpress</li>
+                <li className="text-grey-text text-xl mb-0">Storybook</li>
+              </ul>
             </div>
           </div>
         </div>
