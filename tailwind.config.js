@@ -9,6 +9,9 @@ module.exports = {
           default: "#26979c",
         },
         secondary: {
+          default: "#132b32",
+        },
+        aX: {
           default: "#edf2f6",
         },
       },
