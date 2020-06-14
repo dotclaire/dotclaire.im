@@ -3,7 +3,7 @@ import { Logo } from "../icons/Logo"
 
 export const Navbar = () => {
   return (
-    <nav className="container mx-auto flex items-center justify-between flex-wrap p-6 md:p-0 md:py-6">
+    <nav className="container mx-auto flex flex-col items-center justify-between flex-wrap p-6 md:flex-row md:p-0 md:py-6">
       <Logo />
       <div className="flex-grow flex lg:items-center w-auto">
         <div className="flex-grow"></div>
