@@ -1,9 +1,9 @@
 import React from "react"
-import laptop from "../assets/images/laptop.jpg"
 import { Navbar } from "../components/Navbar"
 import { Footer } from "../components/Footer"
+import laptop from "../assets/images/laptop.jpg"
 
-export default class Landing extends React.Component {
+export default class IndexPage extends React.Component {
   render() {
     return (
       <div className="bg-primary flex flex-col h-full w-full">

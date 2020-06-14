@@ -10,7 +10,7 @@ export const Navbar = () => {
         <div className="flex-grow"></div>
         <div>
           <Link
-            to="/home"
+            to="/"
             className="mt-2 text-base md:text-lg inline-block mt-0 text-white hover:text-secondary-dark mr-4"
           >
             Home
