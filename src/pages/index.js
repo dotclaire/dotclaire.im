@@ -1,6 +1,7 @@
 import React from "react"
 import laptop from "../assets/images/laptop.jpg"
-import { Navbar } from "..components/Navbar"
+import { Navbar } from "../components/Navbar"
+import { Footer } from "../components/Footer"
 
 export default class App extends React.Component {
   render() {
@@ -28,6 +29,7 @@ export default class App extends React.Component {
             alt="hands-on-laptop"
           />
         </div>
+        <Footer />
       </div>
     )
   }
