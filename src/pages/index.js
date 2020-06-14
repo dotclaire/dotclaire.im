@@ -7,7 +7,7 @@ export default class IndexPage extends React.Component {
   render() {
     return (
       <div className="bg-primary flex flex-col h-full w-full">
-        <Navbar />
+        <Navbar isDark />
         <div className="container mx-auto flex flex-1 flex-col justify-center p-5 md:p-0">
           <div>
             <h1 className="greeting text-white">
@@ -39,7 +39,7 @@ export default class IndexPage extends React.Component {
             alt="hands-on-laptop"
           />
         </div>
-        <Footer />
+        <Footer isDark />
       </div>
     )
   }

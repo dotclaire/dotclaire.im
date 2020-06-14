@@ -18,10 +18,7 @@ module.exports = {
         teg: {
           default: "#fe0000",
         },
-        b: {
-          default: "#132b32",
-        },
-        aX: {
+        grey: {
           default: "#edf2f6",
         },
       },
