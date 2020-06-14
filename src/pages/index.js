@@ -10,15 +10,25 @@ export default class App extends React.Component {
         <Navbar />
         <div className="container mx-auto flex flex-1 flex-col justify-center p-5 md:p-0">
           <div>
-            <h1 className="greeting text-white">Hello, I'm Claire.</h1>
+            <h1 className="greeting text-white">
+              Hello, I'm <span className="text-secondary">Claire</span>.
+            </h1>
             <h2 className="job text-white">
               Junior Developer &#64;
               <a
-                className="company-name text-white"
+                className="company-name text-white hover:text-signalNoise"
                 href="https://signal-noise.co.uk"
                 target="_blank"
               >
-                Signal Noise, part of The Economist Group
+                Signal Noise
+              </a>
+              , part of
+              <a
+                className="company-name text-white hover:text-teg"
+                href="https://signal-noise.co.uk"
+                target="_blank"
+              >
+                The Economist Group
               </a>
               .
             </h2>

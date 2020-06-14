@@ -10,19 +10,19 @@ export const Navbar = () => {
         <div>
           <a
             href="#responsive-header"
-            className="mt-2 text-base md:text-lg inline-block mt-0 text-white hover:text-teal-200 mr-4"
+            className="mt-2 text-base md:text-lg inline-block mt-0 text-white hover:text-secondary-dark mr-4"
           >
             Home
           </a>
           <a
             href="#responsive-header"
-            className="mt-2 text-base md:text-lg inline-block mt-0 text-white hover:text-teal-200 mr-4"
+            className="mt-2 text-base md:text-lg inline-block mt-0 text-white hover:text-secondary-dark mr-4"
           >
             About
           </a>
           <a
             href="#responsive-header"
-            className="mt-2 text-base md:text-lg inline-block mt-0 text-white hover:text-teal-200 mr-4"
+            className="mt-2 text-base md:text-lg inline-block mt-0 text-white hover:text-secondary-dark mr-4"
           >
             Portfolio
           </a>
