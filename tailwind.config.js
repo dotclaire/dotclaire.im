@@ -3,6 +3,10 @@ module.exports = {
     opacity: {
       "10": "0.1",
     },
+    height: {
+      full: "100vh",
+      line: "2px",
+    },
     extend: {
       colors: {
         primary: {
@@ -20,6 +24,7 @@ module.exports = {
         },
         grey: {
           default: "#edf2f6",
+          text: "#727c7c",
         },
       },
     },
