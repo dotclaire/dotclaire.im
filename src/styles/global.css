@@ -19,6 +19,14 @@ body {
   height: 100%;
 }
 
+.fa-fw {
+  color: white;
+}
+
+.fa-fw:hover {
+  color: #165e62;
+}
+
 .logo {
   width: 30px;
 }

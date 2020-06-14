@@ -6,9 +6,19 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          default: "#26979c",
+          default: "#1a2122",
         },
         secondary: {
+          default: "#26979c",
+          dark: "#165e62",
+        },
+        signalNoise: {
+          default: "#cdff00",
+        },
+        teg: {
+          default: "#fe0000",
+        },
+        b: {
           default: "#132b32",
         },
         aX: {
