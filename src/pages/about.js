@@ -8,7 +8,7 @@ export default class About extends React.Component {
       <div className="bg-grey">
         <Navbar />
         <div className="container mx-auto py-10">
-          <div className="flex flex-row justify-evenly">
+          <div className="flex flex-row justify-around">
             <div className="flex flex-col justify-start max-w-xl">
               <p className="text-2xl">
                 My name is Charikleia Charalampidou, but people call me Claire!
@@ -23,12 +23,14 @@ export default class About extends React.Component {
                 studying full time, I was growing my skills as a developer.
               </p>
             </div>
-            <img
-              className="rounded-full w-3/12"
-              src="https://avatars3.githubusercontent.com/u/53490573?v=4"
-            />
+            <div className="max-w-xs">
+              <img
+                className="rounded-full"
+                src="https://avatars3.githubusercontent.com/u/53490573?v=4"
+              />
+            </div>
           </div>
-          <div className="flex flex-row justify-evenly py-5">
+          <div className="flex flex-row justify-around py-5">
             <div className="max-w-xl">
               <h2 className="text-2xl">Education</h2>
               <hr className="block h-line bg-secondary w-32" />
