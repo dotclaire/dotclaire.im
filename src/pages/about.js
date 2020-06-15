@@ -7,30 +7,30 @@ export default class About extends React.Component {
     return (
       <div className="bg-grey">
         <Navbar />
-        <div className="container mx-auto py-10">
-          <div className="flex flex-row justify-around">
-            <div className="flex flex-col justify-start max-w-xl">
-              <p className="text-2xl">
+        <div className="container mx-auto py-5">
+          <div className="flex flex-col justify-around items-center px-4 md:flex-row">
+            <div className="flex flex-col justify-start max-w-xl order-2 md:order-1">
+              <p className="text-2xl text-justify">
                 My name is Charikleia Charalampidou, but people call me Claire!
                 I am a Front End Developer with passion for responsive web
                 design and a firm believer in the mobile first approach. I love
                 getting my hands on new technologies and building contemporary
                 projects.
               </p>
-              <p className="text-grey-text text-xl py-5">
+              <p className="text-grey-text text-xl py-5 text-justify">
                 Before I got into software, I did my undergraduate studies in
                 Mathematics and got my Master's degree in Data Analytics. While
                 studying full time, I was growing my skills as a developer.
               </p>
             </div>
-            <div className="max-w-xs">
+            <div className="flex justify-center order-1 max-w-xs pb-5 md:block md:pl-10 md:order-2">
               <img
-                className="rounded-full"
+                className="rounded-full max-w-64"
                 src="https://avatars3.githubusercontent.com/u/53490573?v=4"
               />
             </div>
           </div>
-          <div className="flex flex-row justify-around py-5">
+          <div className="flex flex-col justify-around px-4 py-5 md:flex-row">
             <div className="max-w-xl">
               <h2 className="text-2xl">Education</h2>
               <hr className="block h-line bg-secondary w-32" />
@@ -43,7 +43,7 @@ export default class About extends React.Component {
                 <br />
                 School of Computing, Engineering and Mathematics
               </h2>
-              <p className="text-grey-text text-xl">
+              <p className="text-grey-text text-xl text-justify">
                 The MSc course in Data Analytics covered three main areas; Data
                 Management, Data Interpretation and Project Management. I had
                 the opportunity to attend modules such as Data Management (in
@@ -63,7 +63,7 @@ export default class About extends React.Component {
                 Aristotle University of Thessaloniki, Greece <br />
                 Faculty of Physics and Mathematics
               </h2>
-              <p className="text-grey-text text-xl">
+              <p className="text-grey-text text-xl text-justify">
                 My BSc studies in Mathematics included modules related with five
                 different departments of mathematics. Algebra Number Theory and
                 Mathematical Logic, Geometry, Statistics and Operational
@@ -71,10 +71,10 @@ export default class About extends React.Component {
                 Computer Science and Numerical Analysis.
               </p>
             </div>
-            <div className="w-3/12">
+            <div className="w-3/12 pt-5 md:pl-10">
               <h2 className="text-2xl">Skills</h2>
               <hr className="block h-line bg-secondary w-32" />
-              <ul className="pt-3">
+              <ul className="pt-3 flex flex-col justify-between flex-wrap md:block">
                 <li className="text-grey-text text-xl mb-0">React</li>
                 <li className="text-grey-text text-xl mb-0">React Native</li>
                 <li className="text-grey-text text-xl mb-0">Redux</li>
