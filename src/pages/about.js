@@ -7,10 +7,10 @@ export default class About extends React.Component {
     return (
       <div className="bg-grey">
         <Navbar />
-        <div className="container mx-auto py-10">
+        <div className="container mx-auto p-4 md:py-10">
           <div className="flex flex-col justify-around md:flex-row">
-            <div className="flex flex-col flex-auto justify-start order-2 md:order-1">
-              <p className="text-2xl">
+            <div className="flex flex-col justify-start mt-5 order-2 flex-1 md:mr-5 md:mt-0 md:order-1">
+              <p className="text-2xl text-justify">
                 My name is Charikleia Charalampidou, but people call me Claire!
                 I am a Front End Developer with passion for responsive web
                 design and a firm believer in the mobile first approach. I love
@@ -23,7 +23,7 @@ export default class About extends React.Component {
                 studying full time, I was growing my skills as a developer.
               </p>
             </div>
-            <div className="flex flex-col items-center order-1 md:order-2">
+            <div className="flex flex-col items-center order-1 flex-initial md:w-64 md:ml-5 md:order-2">
               <img
                 className="rounded-full"
                 src="https://avatars3.githubusercontent.com/u/53490573?v=4"
@@ -31,7 +31,7 @@ export default class About extends React.Component {
             </div>
           </div>
           <div className="flex flex-col justify-around py-5 md:flex-row">
-            <div className="flex flex-col justify-start">
+            <div className="flex flex-col justify-start flex-1 md:mr-5">
               <h2 className="text-2xl">Education</h2>
               <hr className="block h-line bg-secondary w-32" />
               <h3 className="pt-4 text-xl">
@@ -71,7 +71,7 @@ export default class About extends React.Component {
                 Computer Science and Numerical Analysis.
               </p>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col mt-5 flex-initial md:ml-5 md:mt-0">
               <h2 className="text-2xl">Skills</h2>
               <hr className="block h-line bg-secondary w-32" />
               <ul className="pt-3 flex flex-col justify-between flex-wrap md:block">
