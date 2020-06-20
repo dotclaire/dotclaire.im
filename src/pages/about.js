@@ -1,16 +1,16 @@
-import React from "react"
-import { Navbar } from "../components/Navbar"
 import { Footer } from "..//components/Footer"
+import { Navbar } from "../components/Navbar"
+import React from "react"
 
 export default class About extends React.Component {
   render() {
     return (
       <div className="bg-grey">
         <Navbar />
-        <div className="container mx-auto py-5">
-          <div className="flex flex-col justify-around items-center px-4 md:flex-row">
-            <div className="flex flex-col justify-start max-w-xl order-2 md:order-1">
-              <p className="text-2xl text-justify">
+        <div className="container mx-auto py-10">
+          <div className="flex flex-col justify-around md:flex-row">
+            <div className="flex flex-col flex-auto justify-start order-2 md:order-1">
+              <p className="text-2xl">
                 My name is Charikleia Charalampidou, but people call me Claire!
                 I am a Front End Developer with passion for responsive web
                 design and a firm believer in the mobile first approach. I love
@@ -23,15 +23,15 @@ export default class About extends React.Component {
                 studying full time, I was growing my skills as a developer.
               </p>
             </div>
-            <div className="flex justify-center order-1 max-w-xs pb-5 md:block md:pl-10 md:order-2">
+            <div className="flex flex-col items-center order-1 md:order-2">
               <img
-                className="rounded-full max-w-64"
+                className="rounded-full"
                 src="https://avatars3.githubusercontent.com/u/53490573?v=4"
               />
             </div>
           </div>
-          <div className="flex flex-col justify-around px-4 py-5 md:flex-row">
-            <div className="max-w-xl">
+          <div className="flex flex-col justify-around py-5 md:flex-row">
+            <div className="flex flex-col justify-start">
               <h2 className="text-2xl">Education</h2>
               <hr className="block h-line bg-secondary w-32" />
               <h3 className="pt-4 text-xl">
@@ -71,7 +71,7 @@ export default class About extends React.Component {
                 Computer Science and Numerical Analysis.
               </p>
             </div>
-            <div className="w-3/12 pt-5 md:pl-10">
+            <div className="flex flex-col">
               <h2 className="text-2xl">Skills</h2>
               <hr className="block h-line bg-secondary w-32" />
               <ul className="pt-3 flex flex-col justify-between flex-wrap md:block">
