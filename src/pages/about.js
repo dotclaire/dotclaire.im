@@ -27,6 +27,7 @@ export default class About extends React.Component {
               <img
                 className="rounded-full"
                 src="https://avatars3.githubusercontent.com/u/53490573?v=4"
+                alt="portrait"
               />
             </div>
           </div>
