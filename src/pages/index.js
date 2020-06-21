@@ -1,6 +1,6 @@
-import React from "react"
-import { Navbar } from "../components/Navbar"
 import { Footer } from "../components/Footer"
+import { Navbar } from "../components/Navbar"
+import React from "react"
 import laptop from "../assets/images/laptop.jpg"
 
 export default class IndexPage extends React.Component {
@@ -10,10 +10,10 @@ export default class IndexPage extends React.Component {
         <Navbar isDark />
         <div className="container mx-auto flex flex-1 flex-col justify-center p-5 md:p-0">
           <div>
-            <h1 className="greeting text-white">
+            <h1 className="text-5xl text-white">
               Hello, I'm <span className="text-secondary">Claire</span>.
             </h1>
-            <h2 className="job text-white">
+            <h2 className="text-3xl text-white">
               Junior Developer &#64;
               <a
                 className="company-name text-white hover:text-signalNoise underline"
