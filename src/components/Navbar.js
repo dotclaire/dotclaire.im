@@ -6,7 +6,9 @@ export const Navbar = ({ isDark }) => {
   return (
     <div className={`${isDark ? "bg-none" : "bg-primary"}`}>
       <nav className="container mx-auto flex flex-col items-center justify-between flex-wrap p-6 md:flex-row md:p-0 md:py-6">
-        <Logo />
+        <Link to="/">
+          <Logo />
+        </Link>
         <div className="flex-grow flex justify-end lg:items-center w-auto">
           <div className="flex justify-between">
             <Link
