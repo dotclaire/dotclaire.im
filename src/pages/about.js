@@ -53,7 +53,7 @@ export default class About extends React.Component {
                 Strategy and Practice, Medical Statistics (in R), Data Mining
                 and Knowledge Discovery in Data (in Python & SPSS Modeler), Risk
                 Analysis and Retail Finance (in R & SAS). My Thesis topic is
-                related with predicting Employee Attrition using classification
+                related to predicting Employee Attrition using classification
                 algorithms, implementing them in RStudio.
               </p>
 
@@ -65,7 +65,7 @@ export default class About extends React.Component {
                 Faculty of Physics and Mathematics
               </h2>
               <p className="text-grey-text text-xl text-justify">
-                My BSc studies in Mathematics included modules related with five
+                My BSc studies in Mathematics included modules related to five
                 different departments of mathematics. Algebra Number Theory and
                 Mathematical Logic, Geometry, Statistics and Operational
                 Research Department, Mathematical Analysis, and Section of
