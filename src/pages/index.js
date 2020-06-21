@@ -19,6 +19,7 @@ export default class IndexPage extends React.Component {
                 className="text-3xl text-white hover:text-signalNoise underline pl-2"
                 href="https://signal-noise.co.uk"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Signal Noise
               </a>
@@ -27,6 +28,7 @@ export default class IndexPage extends React.Component {
                 className="text-3xl text-white hover:text-teg underline pl-2"
                 href="https://www.economistgroup.com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 The Economist Group
               </a>
