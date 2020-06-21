@@ -8,7 +8,7 @@ export default class IndexPage extends React.Component {
     return (
       <div className="bg-primary flex flex-col h-full w-full">
         <Navbar isDark />
-        <div className="container mx-auto flex flex-1 flex-col justify-center p-5 md:p-0">
+        <div className="container mx-auto max-w-container flex flex-1 flex-col justify-center p-5 md:p-0">
           <div>
             <h1 className="text-5xl text-white">
               Hello, I'm <span className="text-secondary">Claire</span>.
@@ -35,11 +35,6 @@ export default class IndexPage extends React.Component {
               .
             </h2>
           </div>
-          <img
-            className="hidden absolute opacity-10 right-0 top-2 w-6/12 lg:block"
-            src={laptop}
-            alt="hands-on-laptop"
-          />
         </div>
         <Footer isDark />
       </div>

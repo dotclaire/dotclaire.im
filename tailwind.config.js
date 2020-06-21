@@ -1,5 +1,8 @@
 module.exports = {
   theme: {
+    maxWidth: {
+      container: "730px",
+    },
     opacity: {
       "10": "0.1",
     },
