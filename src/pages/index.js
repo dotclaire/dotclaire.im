@@ -16,7 +16,7 @@ export default class IndexPage extends React.Component {
             <h2 className="text-3xl text-white">
               Junior Developer &#64;
               <a
-                className="company-name text-white hover:text-signalNoise underline"
+                className="company-name text-3xl text-white hover:text-signalNoise underline pl-2"
                 href="https://signal-noise.co.uk"
                 target="_blank"
               >
@@ -24,7 +24,7 @@ export default class IndexPage extends React.Component {
               </a>
               , part of
               <a
-                className="company-name text-white hover:text-teg underline"
+                className="company-name text-3xl text-white hover:text-teg underline pl-2"
                 href="https://signal-noise.co.uk"
                 target="_blank"
               >
