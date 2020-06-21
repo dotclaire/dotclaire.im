@@ -26,6 +26,10 @@ module.exports = {
           default: "#edf2f6",
           text: "#646e6e",
         },
+        black: {
+          default: "#000",
+          text: "#333a3a",
+        },
       },
     },
   },
