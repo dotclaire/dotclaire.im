@@ -3,6 +3,10 @@ module.exports = {
     opacity: {
       "10": "0.1",
     },
+    height: {
+      full: "100vh",
+      line: "2px",
+    },
     extend: {
       colors: {
         primary: {
@@ -18,11 +22,13 @@ module.exports = {
         teg: {
           default: "#fe0000",
         },
-        b: {
-          default: "#132b32",
-        },
-        aX: {
+        grey: {
           default: "#edf2f6",
+          text: "#646e6e",
+        },
+        black: {
+          default: "#000",
+          text: "#333a3a",
         },
       },
     },

@@ -6,9 +6,9 @@ import {
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons"
 
-export class Footer extends React.Component {
-  render() {
-    return (
+export const Footer = ({ isDark }) => {
+  return (
+    <div className={`${isDark ? "bg-none" : "bg-primary"}`}>
       <footer className="flex flex-col justify-center items-center py-5">
         <div className="flex flex-row">
           <a href="https://www.github.com/clchar" className="pr-3">
@@ -23,6 +23,6 @@ export class Footer extends React.Component {
         </div>
         <div className="text-white">&copy; 2019 Claire Charalampidou</div>
       </footer>
-    )
-  }
+    </div>
+  )
 }
