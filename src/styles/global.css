@@ -36,19 +36,3 @@ ul {
 .fa-fw:hover {
   color: #165e62;
 }
-
-.company-name {
-  font-size: 25px;
-  padding-left: 7px;
-  font-family: "PT Sans", sans-serif;
-}
-
-a,
-li {
-  font-size: 20px;
-}
-
-li {
-  list-style: none;
-  margin-bottom: 10px;
-}

@@ -16,17 +16,19 @@ export default class IndexPage extends React.Component {
             <h2 className="text-3xl text-white">
               Junior Developer &#64;
               <a
-                className="company-name text-white hover:text-signalNoise underline"
+                className="text-3xl text-white hover:text-signalNoise underline pl-2"
                 href="https://signal-noise.co.uk"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Signal Noise
               </a>
               , part of
               <a
-                className="company-name text-white hover:text-teg underline"
-                href="https://signal-noise.co.uk"
+                className="text-3xl text-white hover:text-teg underline pl-2"
+                href="https://www.economistgroup.com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 The Economist Group
               </a>
