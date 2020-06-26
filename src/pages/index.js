@@ -1,7 +1,6 @@
 import { Footer } from "../components/Footer"
 import { Navbar } from "../components/Navbar"
 import React from "react"
-import laptop from "../assets/images/laptop.jpg"
 
 export default class IndexPage extends React.Component {
   render() {
