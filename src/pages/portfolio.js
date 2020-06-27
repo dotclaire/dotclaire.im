@@ -9,8 +9,12 @@ export default class Portfolio extends React.Component {
         <Navbar />
         <div className="container mx-auto max-w-container p-4 md:py-10 md:p-0">
           <div className="flex flex-col justify-between md:flex-row">
-            <div className="flex flex-col flex-1 mt-5 md:mr-5 md:mt-0">
-              Image
+            <div className="flex flex-row justify-center flex-1 mt-5 md:mr-5 md:mt-0">
+              <img
+                className="w-40"
+                src={`../../images/overground-app.png`}
+                alt="website-screenshot"
+              />
             </div>
             <div className="flex flex-col flex-1 items-start md:w-64 md:ml-5">
               <h2 className="text-2xl text-black-text">Overground App</h2>
@@ -31,7 +35,10 @@ export default class Portfolio extends React.Component {
 
           <div className="flex flex-col justify-between pt-8 md:flex-row">
             <div className="flex flex-col flex-1 mt-5 md:mr-5 md:mt-0">
-              Image
+              <img
+                src={`../../images/hex-to-rgb.png`}
+                alt="website-screenshot"
+              />
             </div>
             <div className="flex flex-col flex-1 items-start md:w-64 md:ml-5">
               <h2 className="text-2xl text-black-text">HEX to RGB Converter</h2>
@@ -54,7 +61,10 @@ export default class Portfolio extends React.Component {
 
           <div className="flex flex-col justify-between pt-8 md:flex-row">
             <div className="flex flex-col flex-1 mt-5 md:mr-5 md:mt-0">
-              Image
+              <img
+                src={`../../images/gatsby-portfolio.png`}
+                alt="website-screenshot"
+              />
             </div>
             <div className="flex flex-col flex-1 items-start md:w-64 md:ml-5">
               <h2 className="text-2xl text-black-text">Gatsby Portfolio</h2>
