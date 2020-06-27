@@ -9,9 +9,9 @@ export default class Portfolio extends React.Component {
         <Navbar />
         <div className="container mx-auto max-w-container p-4 md:py-10 md:p-5">
           <div className="flex flex-col justify-between md:flex-row">
-            <div className="flex flex-row justify-center flex-1 mb-5 md:mr-5 md:mb-0">
+            <div className="flex flex-col items-center justify-center flex-1 mb-5 md:mr-5 md:mb-0">
               <img
-                className="md:w-40"
+                className="w-40"
                 src={`../../images/overground-app.png`}
                 alt="website-screenshot"
               />
