@@ -24,12 +24,24 @@ export default class Portfolio extends React.Component {
                 framework. The app uses the Transport for London (TFL) API to
                 get the overground arrivals data.
               </p>
-              <h3 className="pb-3 text-xl text-black-text">Technology</h3>
-              <ul className="flex flex-row text-grey-text text-xl text-justify">
-                <li>React Native</li>
-                <li className="ml-4">Expo</li>
-                <li className="ml-4">TFL API</li>
-              </ul>
+              <div>
+                <h3 className="pb-3 text-xl text-black-text">Technology</h3>
+                <ul className="flex flex-row text-grey-text text-xl text-justify">
+                  <li>React Native</li>
+                  <li className="ml-4">Expo</li>
+                  <li className="ml-4">TFL API</li>
+                </ul>
+              </div>
+              <div className="pt-3">
+                <a
+                  className="text-xl text-secondary"
+                  href="https://github.com/clchar/mobile-overground-app"
+                  target="_blank"
+                >
+                  <span className="mr-4">View on GitHub</span>
+                  <span>&rarr;</span>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -50,12 +62,24 @@ export default class Portfolio extends React.Component {
                 and a demo button which converts Red, Green and Blue to RGB
                 values.
               </p>
-              <h3 className="py-3 text-xl text-black-text">Technology</h3>
-              <ul className="flex flex-row text-grey-text text-xl text-justify">
-                <li>React</li>
-                <li className="ml-4">Bootstrap</li>
-                <li className="ml-4">Local Storage</li>
-              </ul>
+              <div>
+                <h3 className="py-3 text-xl text-black-text">Technology</h3>
+                <ul className="flex flex-row text-grey-text text-xl text-justify">
+                  <li>React</li>
+                  <li className="ml-4">Bootstrap</li>
+                  <li className="ml-4">Local Storage</li>
+                </ul>
+              </div>
+              <div className="pt-3">
+                <a
+                  className="text-xl text-secondary"
+                  href="https://github.com/clchar/hex-to-rgb"
+                  target="_blank"
+                >
+                  <span className="mr-4">View on GitHub</span>
+                  <span>&rarr;</span>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -74,12 +98,24 @@ export default class Portfolio extends React.Component {
                 purpose of this website is to showcase my experience and my side
                 projects. I also used Netlify to deploy it.
               </p>
-              <h3 className="py-3 text-xl text-black-text">Technology</h3>
-              <ul className="flex flex-row text-grey-text text-xl text-justify">
-                <li>Gastby</li>
-                <li className="ml-4">Tailwind CSS</li>
-                <li className="ml-4">Netlify</li>
-              </ul>
+              <div>
+                <h3 className="py-3 text-xl text-black-text">Technology</h3>
+                <ul className="flex flex-row text-grey-text text-xl text-justify">
+                  <li>Gastby</li>
+                  <li className="ml-4">Tailwind CSS</li>
+                  <li className="ml-4">Netlify</li>
+                </ul>
+              </div>
+              <div className="pt-3">
+                <a
+                  className="text-xl text-secondary"
+                  href="https://github.com/clchar/personal-website"
+                  target="_blank"
+                >
+                  <span className="mr-4">View on GitHub</span>
+                  <span>&rarr;</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
