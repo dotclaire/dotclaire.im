@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import { Logo } from "../icons/Logo"
 import React from "react"
 
-export const Navbar = ({ isDark }) => {
+export const Navbar = ({ isDark, toggle }) => {
   return (
     <div className={`${isDark ? "bg-none" : "bg-primary"}`}>
       <nav className="container max-w-container mx-auto flex flex-col items-center justify-between flex-wrap p-6 md:flex-row md:p-0 md:py-6">
@@ -30,6 +30,7 @@ export const Navbar = ({ isDark }) => {
               Portfolio
             </Link>
           </div>
+          {toggle}
         </div>
       </nav>
     </div>
