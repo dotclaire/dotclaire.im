@@ -43,6 +43,8 @@ module.exports = {
         "green-light": "var(--green-light)",
         "hover-signalNoise": "var(--hover-signalNoise)",
         "hover-teg": "var(--hover-teg)",
+        "navbar-primary": "var(--navbar-primary)",
+        "navbar-text": "var(--navbar-text)",
       },
     },
   },

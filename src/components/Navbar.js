@@ -4,7 +4,7 @@ import React from "react"
 
 export const Navbar = ({ toggle }) => {
   return (
-    <div className="bg-primary">
+    <div className="bg-navbar-primary">
       <nav className="container max-w-container mx-auto flex flex-col items-center justify-between flex-wrap p-6 md:flex-row md:p-0 md:p-6">
         <Link to="/">
           <Logo />
@@ -13,19 +13,19 @@ export const Navbar = ({ toggle }) => {
           <div className="flex justify-between">
             <Link
               to="/"
-              className="text-base p-4 inline-block text-main-text hover:text-green md:text-lg"
+              className="text-base p-4 inline-block text-navbar-text hover:text-green md:text-lg"
             >
               Home
             </Link>
             <Link
               to="/about"
-              className="text-base p-4 inline-block text-main-text hover:text-green md:text-lg"
+              className="text-base p-4 inline-block text-navbar-text hover:text-green md:text-lg"
             >
               About
             </Link>
             <Link
               to="portfolio"
-              className="text-base p-4 inline-block text-main-text hover:text-green md:text-lg"
+              className="text-base p-4 inline-block text-navbar-text hover:text-green md:text-lg"
             >
               Portfolio
             </Link>

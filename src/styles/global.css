@@ -155,6 +155,9 @@
   --secondary: #d8dfe6;
   --text-main: #333a3a;
   --text-secondary: #454e56;
+  --navbar-primary: #1a2122;
+  --navbar-text: #edf2f6;
+  --green: #165e62;
   --hover-signalNoise: #cdff00;
   --hover-teg: #fe0000;
 }
@@ -163,6 +166,8 @@
   --secondary: #c3d8e9;
   --text-main: #eaeaea;
   --text-secondary: #828e90;
+  --navbar-primary: #1a2122;
+  --navbar-text: #edf2f6;
   --green: #165e62;
   --green-light: #26979c;
   --hover-signalNoise: #cdff00;
