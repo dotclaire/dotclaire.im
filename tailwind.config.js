@@ -3,9 +3,6 @@ module.exports = {
     maxWidth: {
       container: "900px",
     },
-    opacity: {
-      "10": "0.1",
-    },
     height: {
       full: "100%",
       line: "2px",
