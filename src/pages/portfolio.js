@@ -16,7 +16,7 @@ export default class Portfolio extends React.Component {
             </div>
             <div className="flex flex-col flex-1 items-start md:w-64 md:ml-5">
               <h2 className="text-2xl text-main-text">Overground App</h2>
-              <hr className="block h-line bg-green w-32" />
+              <hr className="block h-line bg-green-light w-32" />
               <p className="text-secondary-text text-xl py-5 text-justify">
                 This is a mobile app built with React Native using Expo
                 framework. The app uses the Transport for London (TFL) API to
@@ -32,7 +32,7 @@ export default class Portfolio extends React.Component {
               </div>
               <div className="pt-3">
                 <a
-                  className="text-xl text-green hover:text-green-light"
+                  className="text-xl text-green-light hover:text-green"
                   href="https://github.com/clchar/mobile-overground-app"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -53,7 +53,7 @@ export default class Portfolio extends React.Component {
             </div>
             <div className="flex flex-col flex-1 items-start md:w-64 md:ml-5">
               <h2 className="text-2xl text-main-text">HEX to RGB Converter</h2>
-              <hr className="block h-line bg-green w-32" />
+              <hr className="block h-line bg-green-light w-32" />
               <p className="text-secondary-text text-xl py-5 text-justify">
                 This is a web app built with Create React App using Bootstrap.
                 The app accepts only valid HEX codes and converts them to the
@@ -71,7 +71,7 @@ export default class Portfolio extends React.Component {
               </div>
               <div className="pt-3">
                 <a
-                  className="text-xl text-green hover:text-green-light"
+                  className="text-xl text-green-light hover:text-green"
                   href="https://github.com/clchar/hex-to-rgb"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -92,7 +92,7 @@ export default class Portfolio extends React.Component {
             </div>
             <div className="flex flex-col flex-1 items-start md:w-64 md:ml-5">
               <h2 className="text-2xl text-main-text">Gatsby Portfolio</h2>
-              <hr className="block h-line bg-green w-32" />
+              <hr className="block h-line bg-green-light w-32" />
               <p className="text-secondary-text text-xl py-5 text-justify">
                 My portfolio website is built with Gatsby and Tailwind CSS. The
                 purpose of this website is to showcase my experience and my side
@@ -108,7 +108,7 @@ export default class Portfolio extends React.Component {
               </div>
               <div className="pt-3">
                 <a
-                  className="text-xl text-green hover:text-green-light"
+                  className="text-xl text-green-light hover:text-green"
                   href="https://github.com/clchar/personal-website"
                   target="_blank"
                   rel="noopener noreferrer"

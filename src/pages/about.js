@@ -32,7 +32,7 @@ export default class About extends React.Component {
           <div className="flex flex-col justify-around py-5 md:flex-row">
             <div className="flex flex-col justify-start flex-1 md:mr-5">
               <h2 className="text-2xl text-main-text">Education</h2>
-              <hr className="block h-line bg-green w-32" />
+              <hr className="block h-line bg-green-light w-32" />
               <h3 className="pt-4 text-xl text-main-text">
                 Masters of Science in Data Analytics (September 2018 - October
                 2019)
@@ -72,7 +72,7 @@ export default class About extends React.Component {
             </div>
             <div className="flex flex-col mt-5 flex-initial md:ml-5 md:mt-0">
               <h2 className="text-2xl text-main-text">Skills</h2>
-              <hr className="block h-line bg-green w-32" />
+              <hr className="block h-line bg-green-light w-32" />
               <ul className="pt-3 flex flex-col justify-between flex-wrap md:block">
                 <li className="text-secondary-text text-xl mb-0">React</li>
                 <li className="text-secondary-text text-xl mb-0">
