@@ -18,11 +18,16 @@ const Layout = ({ children, isLanding }) => {
   }
 
   const toggle = (
-    <Toggle
-      id="theme-toggle"
-      checked={theme === "light" ? true : false}
-      onChange={handleThemeToggle}
-    />
+    //   <Toggle
+    //   id="theme-toggle"
+    //   checked={theme === "light" ? true : false}
+    //   onChange={handleThemeToggle}
+    // />
+
+    <button id="theme-toggle" onClick={handleThemeToggle}>
+      <div className="toggle"></div>
+      {/* <div className="toggleAfter"></div> */}
+    </button>
   )
 
   return (
