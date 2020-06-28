@@ -37,6 +37,7 @@ export default class Portfolio extends React.Component {
                   className="text-xl text-secondary hover:text-secondary-dark"
                   href="https://github.com/clchar/mobile-overground-app"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span className="mr-4">View on GitHub</span>
                   <span>&rarr;</span>
@@ -75,6 +76,7 @@ export default class Portfolio extends React.Component {
                   className="text-xl text-secondary hover:text-secondary-dark"
                   href="https://github.com/clchar/hex-to-rgb"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span className="mr-4">View on GitHub</span>
                   <span>&rarr;</span>
@@ -111,6 +113,7 @@ export default class Portfolio extends React.Component {
                   className="text-xl text-secondary hover:text-secondary-dark"
                   href="https://github.com/clchar/personal-website"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span className="mr-4">View on GitHub</span>
                   <span>&rarr;</span>
