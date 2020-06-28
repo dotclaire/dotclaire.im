@@ -156,12 +156,16 @@
   --text-main: #333a3a;
   --text-secondary: #454e56;
   --accent: #009ffd;
+  --hover-signalNoise: #cdff00;
+  --hover-teg: #fe0000;
 }
 .theme-dark {
   --primary: #1a2122;
   --secondary: red;
   --text-main: #eaeaea;
   --text-secondary: #165e62;
+  --hover-signalNoise: #cdff00;
+  --hover-teg: #fe0000;
   /* --accent: #165e62; */
 }
 
