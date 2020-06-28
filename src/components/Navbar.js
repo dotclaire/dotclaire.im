@@ -14,18 +14,21 @@ export const Navbar = ({ toggle }) => {
             <Link
               to="/"
               className="text-base p-4 inline-block text-navbar-text hover:text-green md:text-lg"
+              activeStyle={{ color: "#26979c" }}
             >
               Home
             </Link>
             <Link
               to="/about"
               className="text-base p-4 inline-block text-navbar-text hover:text-green md:text-lg"
+              activeStyle={{ color: "#26979c" }}
             >
               About
             </Link>
             <Link
               to="portfolio"
               className="text-base p-4 inline-block text-navbar-text hover:text-green md:text-lg"
+              activeStyle={{ color: "#26979c" }}
             >
               Portfolio
             </Link>
