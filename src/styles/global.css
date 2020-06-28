@@ -152,7 +152,7 @@
 
 .theme-light {
   --primary: #edf2f6;
-  --secondary: #1a2122;
+  --secondary: #d8dfe6;
   --text-main: #333a3a;
   --text-secondary: #454e56;
   --hover-signalNoise: #cdff00;
@@ -162,7 +162,7 @@
   --primary: #1a2122;
   --secondary: #c3d8e9;
   --text-main: #eaeaea;
-  --text-secondary: #c3d8e9;
+  --text-secondary: #828e90;
   --green: #165e62;
   --green-light: #26979c;
   --hover-signalNoise: #cdff00;
@@ -196,4 +196,7 @@ ul {
 
 .fa-fw:hover {
   color: #165e62;
+}
+hr {
+  border-top-width: 0;
 }
