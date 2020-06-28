@@ -5,7 +5,7 @@ import React from "react"
 export const Navbar = ({ isDark, toggle }) => {
   return (
     <div className={`${isDark ? "bg-none" : "bg-primary"}`}>
-      <nav className="container max-w-container mx-auto flex flex-col items-center justify-between flex-wrap p-6 md:flex-row md:p-0 md:py-6">
+      <nav className="container max-w-container mx-auto flex flex-col items-center justify-between flex-wrap p-6 md:flex-row md:p-0 md:p-6">
         <Link to="/">
           <Logo />
         </Link>
