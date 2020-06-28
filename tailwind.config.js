@@ -39,6 +39,8 @@ module.exports = {
         secondary: "var(--secondary)",
         "main-text": "var(--text-main)",
         "secondary-text": "var(--text-secondary)",
+        green: "var(--green)",
+        "green-light": "var(--green-light)",
         "hover-signalNoise": "var(--hover-signalNoise)",
         "hover-teg": "var(--hover-teg)",
       },

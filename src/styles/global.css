@@ -151,22 +151,22 @@
 }
 
 .theme-light {
-  --primary: #f8f8f8;
-  --secondary: #dbe1e8;
+  --primary: #edf2f6;
+  --secondary: #1a2122;
   --text-main: #333a3a;
   --text-secondary: #454e56;
-  --accent: #009ffd;
   --hover-signalNoise: #cdff00;
   --hover-teg: #fe0000;
 }
 .theme-dark {
   --primary: #1a2122;
-  --secondary: red;
+  --secondary: #c3d8e9;
   --text-main: #eaeaea;
-  --text-secondary: #165e62;
+  --text-secondary: #c3d8e9;
+  --green: #165e62;
+  --green-light: #26979c;
   --hover-signalNoise: #cdff00;
   --hover-teg: #fe0000;
-  /* --accent: #165e62; */
 }
 
 html {

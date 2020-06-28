@@ -11,7 +11,7 @@ export default class IndexPage extends React.Component {
           <div className="container mx-auto max-w-container flex flex-1 flex-col justify-center p-5 md:p-0">
             <div>
               <h1 className="text-5xl text-main-text">
-                Hello, I'm <span className="text-secondary-text">Claire</span>.
+                Hello, I'm <span className="text-green">Claire</span>.
               </h1>
               <h2 className="text-3xl text-main-text">
                 Junior Developer &#64;
