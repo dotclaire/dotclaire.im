@@ -13,19 +13,19 @@ export const Navbar = ({ toggle }) => {
           <div className="flex justify-between">
             <Link
               to="/"
-              className="text-base p-4 inline-block text-main-text hover:text-secondary-text md:text-lg"
+              className="text-base p-4 inline-block text-main-text hover:text-green md:text-lg"
             >
               Home
             </Link>
             <Link
               to="/about"
-              className="text-base p-4 inline-block text-main-text hover:text-secondary-text md:text-lg"
+              className="text-base p-4 inline-block text-main-text hover:text-green md:text-lg"
             >
               About
             </Link>
             <Link
               to="portfolio"
-              className="text-base p-4 inline-block text-main-text hover:text-secondary-text md:text-lg"
+              className="text-base p-4 inline-block text-main-text hover:text-green md:text-lg"
             >
               Portfolio
             </Link>
