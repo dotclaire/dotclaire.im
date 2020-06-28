@@ -7,11 +7,11 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import React from "react"
 
-export const Footer = ({ isDark }) => {
+export const Footer = () => {
   const date = new Date()
   const year = date.getFullYear()
   return (
-    <div className={`${isDark ? "bg-none" : "bg-primary"}`}>
+    <div className="bg-navbar-primary">
       <footer className="flex flex-col justify-center items-center py-5">
         <div className="flex flex-row">
           <a href="https://www.github.com/clchar" className="pr-3">
@@ -24,7 +24,9 @@ export const Footer = ({ isDark }) => {
             <FontAwesomeIcon icon={faTwitter} fixedWidth />
           </a>
         </div>
-        <div className="text-white">&copy; {year} Claire Charalampidou</div>
+        <div className="text-navbar-text">
+          &copy; {year} Claire Charalampidou
+        </div>
       </footer>
     </div>
   )
