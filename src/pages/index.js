@@ -8,7 +8,6 @@ export default class IndexPage extends React.Component {
     return (
       <Layout isLanding>
         <div className="bg-primary flex flex-col h-full w-full">
-          {/* <Navbar isDark /> */}
           <div className="container mx-auto max-w-container flex flex-1 flex-col justify-center p-5 md:p-0">
             <div>
               <h1 className="text-5xl text-white">
@@ -37,7 +36,6 @@ export default class IndexPage extends React.Component {
               </h2>
             </div>
           </div>
-          {/* <Footer isDark /> */}
         </div>
       </Layout>
     )
