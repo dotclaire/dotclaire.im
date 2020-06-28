@@ -6,7 +6,7 @@ import React from "react"
 export default class IndexPage extends React.Component {
   render() {
     return (
-      <Layout>
+      <Layout isLanding>
         <div className="bg-primary flex flex-col h-full w-full">
           {/* <Navbar isDark /> */}
           <div className="container mx-auto max-w-container flex flex-1 flex-col justify-center p-5 md:p-0">

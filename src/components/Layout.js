@@ -6,7 +6,7 @@ import PropTypes from "prop-types"
 import { ThemeContext } from "../context/themeContext"
 import Toggle from "react-toggle"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, isLanding }) => {
   const { theme, setTheme } = useContext(ThemeContext)
 
   const handleThemeToggle = () => {
@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
     <div
       className={`${
         theme === "light" ? "theme-light" : "theme-dark"
-      } bg-primary flex flex-col h-full w-full`}
+      } bg-primary flex flex-col ${isLanding ? "h-full w-full" : ""}`}
     >
       <Navbar toggle={toggle} />
       {children}
