@@ -1,6 +1,4 @@
-import { Footer } from "..//components/Footer"
 import Layout from "../components/Layout"
-import { Navbar } from "../components/Navbar"
 import React from "react"
 
 export default class About extends React.Component {
