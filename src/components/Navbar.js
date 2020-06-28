@@ -2,9 +2,9 @@ import { Link } from "gatsby"
 import { Logo } from "../icons/Logo"
 import React from "react"
 
-export const Navbar = ({ isDark, toggle }) => {
+export const Navbar = ({ toggle }) => {
   return (
-    <div className={`${isDark ? "bg-none" : "bg-primary"}`}>
+    <div className="bg-primary">
       <nav className="container max-w-container mx-auto flex flex-col items-center justify-between flex-wrap p-6 md:flex-row md:p-0 md:p-6">
         <Link to="/">
           <Logo />
@@ -13,19 +13,19 @@ export const Navbar = ({ isDark, toggle }) => {
           <div className="flex justify-between">
             <Link
               to="/"
-              className="text-base p-4 inline-block text-white hover:text-secondary-dark md:text-lg"
+              className="text-base p-4 inline-block text-main-text hover:text-secondary-dark md:text-lg"
             >
               Home
             </Link>
             <Link
               to="/about"
-              className="text-base p-4 inline-block text-white hover:text-secondary-dark md:text-lg"
+              className="text-base p-4 inline-block text-main-text hover:text-secondary-dark md:text-lg"
             >
               About
             </Link>
             <Link
               to="portfolio"
-              className="text-base p-4 inline-block text-white hover:text-secondary-dark md:text-lg"
+              className="text-base p-4 inline-block text-main-text hover:text-secondary-dark md:text-lg"
             >
               Portfolio
             </Link>

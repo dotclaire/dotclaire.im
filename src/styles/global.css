@@ -153,16 +153,16 @@
 .theme-light {
   --primary: #f8f8f8;
   --secondary: #dbe1e8;
-  --text-main: #0d0106;
+  --text-main: #333a3a;
   --text-secondary: #454e56;
   --accent: #009ffd;
 }
 .theme-dark {
   --primary: #1a2122;
-  --secondary: #165e62;
+  --secondary: red;
   --text-main: #eaeaea;
-  --text-secondary: #b8b8b9;
-  --accent: #fc7753;
+  --text-secondary: #165e62;
+  /* --accent: #165e62; */
 }
 
 html {
