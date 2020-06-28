@@ -8,13 +8,13 @@ export default class IndexPage extends React.Component {
         <div className="bg-primary flex flex-col h-full w-full">
           <div className="container mx-auto max-w-container flex flex-1 flex-col justify-center p-5 md:p-6">
             <div>
-              <h1 className="text-5xl text-main-text">
+              <h1 className="text-4xl text-main-text">
                 Hello, I'm <span className="text-green-light">Claire</span>.
               </h1>
-              <h2 className="text-3xl text-main-text">
+              <h2 className="text-2xl text-main-text">
                 Junior Developer &#64;
                 <a
-                  className="text-3xl text-main-text hover:text-hover-signalNoise underline pl-2"
+                  className="text-2xl text-main-text hover:text-hover-signalNoise underline pl-2"
                   href="https://signal-noise.co.uk"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -23,7 +23,7 @@ export default class IndexPage extends React.Component {
                 </a>
                 , part of
                 <a
-                  className="text-3xl text-main-text hover:text-hover-teg underline pl-2"
+                  className="text-2xl text-main-text hover:text-hover-teg underline pl-2"
                   href="https://www.economistgroup.com/"
                   target="_blank"
                   rel="noopener noreferrer"
