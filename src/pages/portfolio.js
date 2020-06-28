@@ -103,7 +103,7 @@ export default class Portfolio extends React.Component {
               <div>
                 <h3 className="py-3 text-xl text-black-text">Technology</h3>
                 <ul className="flex flex-row text-grey-text text-xl text-justify">
-                  <li>Gastby</li>
+                  <li>Gatsby</li>
                   <li className="ml-4">Tailwind CSS</li>
                   <li className="ml-4">Netlify</li>
                 </ul>
