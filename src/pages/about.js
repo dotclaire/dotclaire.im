@@ -7,7 +7,7 @@ export default class About extends React.Component {
     return (
       <div className="bg-grey">
         <Navbar />
-        <div className="container mx-auto max-w-container p-4 md:py-10 md:p-0">
+        <div className="container mx-auto max-w-container p-4 md:py-10 md:p-5">
           <div className="flex flex-col justify-around md:flex-row">
             <div className="flex flex-col justify-start mt-5 order-2 flex-1 md:mr-5 md:mt-0 md:order-1">
               <p className="text-2xl text-justify text-black-text">
