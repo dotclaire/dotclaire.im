@@ -1,6 +1,4 @@
-import { Footer } from "../components/Footer"
 import Layout from "../components/Layout"
-import { Navbar } from "../components/Navbar"
 import React from "react"
 
 export default class IndexPage extends React.Component {
@@ -8,7 +6,7 @@ export default class IndexPage extends React.Component {
     return (
       <Layout isLanding>
         <div className="bg-primary flex flex-col h-full w-full">
-          <div className="container mx-auto max-w-container flex flex-1 flex-col justify-center p-5 md:p-0">
+          <div className="container mx-auto max-w-container flex flex-1 flex-col justify-center p-5 md:p-6">
             <div>
               <h1 className="text-5xl text-main-text">
                 Hello, I'm <span className="text-green">Claire</span>.
