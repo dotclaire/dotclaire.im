@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "Claire Charalampidou",
-    titleTemplate: "%s · The Real Hero",
+    titleTemplate: "Software Engineer",
     description: "Claire Charalampidou. Software Engineer",
     url: "https://www.dotclaire.im", // No trailing slash allowed!
     image: "./static/portrait.jpeg", // Path to your image you placed in the 'static' folder
