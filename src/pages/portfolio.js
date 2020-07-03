@@ -1,7 +1,7 @@
 import { Footer } from "..//components/Footer"
 import { Navbar } from "../components/Navbar"
 import React from "react"
-import { SEO } from "../components/SEO"
+import { SEO } from "../components/seo"
 
 export default class Portfolio extends React.Component {
   render() {
