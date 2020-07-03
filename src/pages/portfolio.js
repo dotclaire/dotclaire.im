@@ -1,11 +1,13 @@
 import { Footer } from "..//components/Footer"
 import { Navbar } from "../components/Navbar"
 import React from "react"
+import { SEO } from "../components/seo"
 
 export default class Portfolio extends React.Component {
   render() {
     return (
       <div className="bg-grey">
+        <SEO title="Projects" />
         <Navbar />
         <div className="container mx-auto max-w-container p-4 md:py-10 md:p-5">
           <div className="flex flex-col justify-between md:flex-row">
