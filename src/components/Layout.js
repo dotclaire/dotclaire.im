@@ -4,7 +4,6 @@ import { Footer } from "./Footer"
 import { Navbar } from "./Navbar"
 import PropTypes from "prop-types"
 import { ThemeContext } from "../context/themeContext"
-import Toggle from "react-toggle"
 
 const Layout = ({ children, isLanding }) => {
   const { theme, setTheme } = useContext(ThemeContext)
