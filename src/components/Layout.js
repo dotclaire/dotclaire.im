@@ -24,7 +24,7 @@ const Layout = ({ children, isLanding }) => {
     // />
 
     <button id="theme-toggle" onClick={handleThemeToggle}>
-      <div className="toggle"></div>
+      <div className={theme === "dark" ? "sunToggle" : "moonToggle"}></div>
       {/* <div className="toggleAfter"></div> */}
     </button>
   )
