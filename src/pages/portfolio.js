@@ -25,8 +25,8 @@ export default class Portfolio extends React.Component {
                 get the overground arrivals data.
               </p>
               <div>
-                <h3 className="pb-3 text-xl text-black-text">Technologies</h3>
-                <ul className="flex flex-row text-grey-text text-xl text-justify">
+                <h3 className="pb-3 text-xl text-main-text">Technologies</h3>
+                <ul className="flex flex-row text-secondary-text text-xl text-justify">
                   <li>React Native</li>
                   <li className="ml-4">Expo</li>
                   <li className="ml-4">TFL API</li>
@@ -64,8 +64,8 @@ export default class Portfolio extends React.Component {
                 values.
               </p>
               <div>
-                <h3 className="py-3 text-xl text-black-text">Technologies</h3>
-                <ul className="flex flex-row text-grey-text text-xl text-justify">
+                <h3 className="py-3 text-xl text-main-text">Technologies</h3>
+                <ul className="flex flex-row text-secondary-text text-xl text-justify">
                   <li>React</li>
                   <li className="ml-4">Bootstrap</li>
                   <li className="ml-4">Local Storage</li>
@@ -101,8 +101,8 @@ export default class Portfolio extends React.Component {
                 projects. I also used Netlify to deploy it.
               </p>
               <div>
-                <h3 className="py-3 text-xl text-black-text">Technologies</h3>
-                <ul className="flex flex-row text-grey-text text-xl text-justify">
+                <h3 className="py-3 text-xl text-main-text">Technologies</h3>
+                <ul className="flex flex-row text-secondary-text text-xl text-justify">
                   <li>Gatsby</li>
                   <li className="ml-4">Tailwind CSS</li>
                   <li className="ml-4">Netlify</li>
