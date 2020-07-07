@@ -1,10 +1,12 @@
 import Layout from "../components/Layout"
 import React from "react"
+import { SEO } from "../components/seo"
 
 export default class IndexPage extends React.Component {
   render() {
     return (
       <Layout isLanding>
+        <SEO title="Claire Charalampidou, Software Engineer" />
         <div className="bg-primary flex flex-col h-full w-full">
           <div className="container mx-auto max-w-container flex flex-1 flex-col justify-center p-5 md:p-6">
             <div>

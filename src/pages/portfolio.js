@@ -1,10 +1,12 @@
 import Layout from "../components/Layout"
 import React from "react"
+import { SEO } from "../components/seo"
 
 export default class Portfolio extends React.Component {
   render() {
     return (
       <Layout>
+        <SEO title="Projects" />
         <div className="container mx-auto max-w-container p-4 md:py-10 md:p-5">
           <div className="flex flex-col justify-between md:flex-row">
             <div className="flex flex-col items-center justify-center flex-1 mb-5 md:mr-5 md:mb-0">
@@ -23,8 +25,8 @@ export default class Portfolio extends React.Component {
                 get the overground arrivals data.
               </p>
               <div>
-                <h3 className="pb-3 text-xl text-main-text">Technology</h3>
-                <ul className="flex flex-row text-secondary-text text-xl text-justify">
+                <h3 className="pb-3 text-xl text-black-text">Technologies</h3>
+                <ul className="flex flex-row text-grey-text text-xl text-justify">
                   <li>React Native</li>
                   <li className="ml-4">Expo</li>
                   <li className="ml-4">TFL API</li>
@@ -62,8 +64,8 @@ export default class Portfolio extends React.Component {
                 values.
               </p>
               <div>
-                <h3 className="py-3 text-xl text-main-text">Technology</h3>
-                <ul className="flex flex-row text-secondary-text text-xl text-justify">
+                <h3 className="py-3 text-xl text-black-text">Technologies</h3>
+                <ul className="flex flex-row text-grey-text text-xl text-justify">
                   <li>React</li>
                   <li className="ml-4">Bootstrap</li>
                   <li className="ml-4">Local Storage</li>
@@ -99,9 +101,9 @@ export default class Portfolio extends React.Component {
                 projects. I also used Netlify to deploy it.
               </p>
               <div>
-                <h3 className="py-3 text-xl text-main-text">Technology</h3>
-                <ul className="flex flex-row text-secondary-text text-xl text-justify">
-                  <li>Gastby</li>
+                <h3 className="py-3 text-xl text-black-text">Technologies</h3>
+                <ul className="flex flex-row text-grey-text text-xl text-justify">
+                  <li>Gatsby</li>
                   <li className="ml-4">Tailwind CSS</li>
                   <li className="ml-4">Netlify</li>
                 </ul>

@@ -1,19 +1,20 @@
 import Layout from "../components/Layout"
 import React from "react"
+import { SEO } from "../components/seo"
 
 export default class About extends React.Component {
   render() {
     return (
       <Layout>
+        <SEO title="About" />
         <div className="container mx-auto max-w-container p-4 md:py-10 md:p-5">
           <div className="flex flex-col justify-around md:flex-row">
             <div className="flex flex-col justify-start mt-5 order-2 flex-1 md:mr-5 md:mt-0 md:order-1">
               <p className="text-2xl text-justify text-main-text">
                 My name is Charikleia Charalampidou, but people call me Claire!
-                I am a Front End Developer with passion for responsive web
-                design and a firm believer in the mobile first approach. I love
-                getting my hands on new technologies and building contemporary
-                projects.
+                I am a Software Engineer with passion for responsive web design
+                and a firm believer in the mobile first approach. I love getting
+                my hands on new technologies and building contemporary projects.
               </p>
               <p className="text-secondary-text text-xl py-5 text-justify">
                 Before I got into software, I did my undergraduate studies in
