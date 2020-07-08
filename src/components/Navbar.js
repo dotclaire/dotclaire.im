@@ -33,7 +33,7 @@ export const Navbar = ({ toggle }) => {
               Portfolio
             </Link>
           </div>
-          {toggle}
+          <div className="flex items-center">{toggle}</div>
         </div>
       </nav>
     </div>
