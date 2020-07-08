@@ -6,17 +6,12 @@ export const ThemeContext = React.createContext({
 })
 
 const ThemeContextProvider = ({ children }) => {
-  const [theme, setTheme] = useState("dark")
-  useEffect(() => {
-    function loadTheme() {
-      const theme = localStorage.getItem("theme")
-      return theme || "dark"
-    }
-    setTheme(loadTheme())
-  }, [])
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark")
+
   useEffect(() => {
     localStorage.setItem("theme", theme)
   }, [theme])
+
   return (
     <ThemeContext.Provider value={{ theme: theme, setTheme: setTheme }}>
       {children}

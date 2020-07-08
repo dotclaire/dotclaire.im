@@ -7,25 +7,21 @@ import { ThemeContext } from "../context/themeContext"
 
 const Layout = ({ children, isLanding }) => {
   const { theme, setTheme } = useContext(ThemeContext)
-
-  const handleThemeToggle = () => {
-    if (theme === "light") {
-      setTheme("dark")
-    } else {
-      setTheme("light")
-    }
-  }
+  const isDark = theme === "dark"
 
   const toggle = (
-    <button id="theme-toggle" onClick={handleThemeToggle}>
-      <div className={theme === "dark" ? "sunToggle" : "moonToggle"}></div>
+    <button
+      id="theme-toggle"
+      onClick={() => setTheme(isDark ? "light" : "dark")}
+    >
+      <div className={isDark ? "sunToggle" : "moonToggle"}></div>
     </button>
   )
 
   return (
     <div
       className={`${
-        theme === "light" ? "theme-light" : "theme-dark"
+        isDark ? "theme-dark" : "theme-light"
       } bg-primary flex flex-col ${isLanding ? "h-full w-full" : ""}`}
     >
       <Navbar toggle={toggle} />
