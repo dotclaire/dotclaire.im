@@ -26,7 +26,7 @@ export const Navbar = ({ toggle }) => {
               About
             </Link>
             <Link
-              to="portfolio"
+              to="/portfolio"
               className="text-base p-4 inline-block text-navbar-text hover:text-green md:text-lg"
               activeStyle={{ color: "#26979c" }}
             >
