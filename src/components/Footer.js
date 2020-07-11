@@ -12,7 +12,7 @@ export const Footer = ({ isDark }) => {
   const year = date.getFullYear()
   return (
     <div className={`${isDark ? "bg-none" : "bg-primary"}`}>
-      <footer className="flex flex-col justify-center items-center py-5">
+      <footer className="flex flex-col justify-center items-center py-6">
         <div className="flex flex-row">
           <a
             href="https://www.github.com/dotclaire"
@@ -39,7 +39,7 @@ export const Footer = ({ isDark }) => {
             <FontAwesomeIcon icon={faTwitter} fixedWidth />
           </a>
         </div>
-        <div className="text-white">&copy; {year} Claire Charalampidou</div>
+        <div className="text-white text-sm mt-4">&copy; {year} Claire Charalampidou</div>
       </footer>
     </div>
   )
