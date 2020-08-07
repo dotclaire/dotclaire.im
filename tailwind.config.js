@@ -1,14 +1,4 @@
 module.exports = {
-  purge: {
-    // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
-    content: [
-      "components/**/*.vue",
-      "layouts/**/*.vue",
-      "pages/**/*.vue",
-      "plugins/**/*.js",
-      "nuxt.config.js",
-    ],
-  },
   theme: {
     maxWidth: {
       container: "900px",
