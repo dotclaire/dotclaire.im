@@ -79,15 +79,13 @@ export default class About extends React.Component {
               <ul className="pt-3 flex flex-col justify-between flex-wrap md:block">
                 <li className="text-grey-text text-xl mb-0">React</li>
                 <li className="text-grey-text text-xl mb-0">React Native</li>
-                <li className="text-grey-text text-xl mb-0">Redux</li>
                 <li className="text-grey-text text-xl mb-0">Typescript</li>
-                <li className="text-grey-text text-xl mb-0">Gatsby</li>
-                <li className="text-grey-text text-xl mb-0">Next</li>
+                <li className="text-grey-text text-xl mb-0">NextJS</li>
                 <li className="text-grey-text text-xl mb-0">GraphQL</li>
                 <li className="text-grey-text text-xl mb-0">CircleCI</li>
                 <li className="text-grey-text text-xl mb-0">Node</li>
                 <li className="text-grey-text text-xl mb-0">Jest</li>
-                <li className="text-grey-text text-xl mb-0">Wordpress</li>
+                <li className="text-grey-text text-xl mb-0">Cypress</li>
                 <li className="text-grey-text text-xl mb-0">Storybook</li>
               </ul>
             </div>

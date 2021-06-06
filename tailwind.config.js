@@ -19,8 +19,8 @@ module.exports = {
           default: "#26979c",
           dark: "#165e62",
         },
-        signalNoise: {
-          default: "#cdff00",
+        rad: {
+          default: "#3c5fce",
         },
         teg: {
           default: "#fe0000",
