@@ -24,7 +24,7 @@ export const Navbar = ({ isDark }) => {
               About
             </Link>
             <Link
-              to="portfolio"
+              to="/portfolio"
               className="text-base p-4 inline-block text-white hover:text-secondary-dark md:text-lg"
             >
               Portfolio
