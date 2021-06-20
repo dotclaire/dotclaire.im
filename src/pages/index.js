@@ -15,7 +15,7 @@ export default class IndexPage extends React.Component {
               Hello, I'm <span className="text-secondary">Claire</span>.
             </h1>
             <h2 className="text-2xl text-white">
-              Software Egnineer &#64;
+              Software Engineer &#64;
               <a
                 className="text-2xl text-white hover:text-rad underline pl-2"
                 href="https://radically.digital/"
